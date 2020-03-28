@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My contact details</title>
+  </head>
+  <body>
+    <h1>My contact details</h1>
+    <ul>
+      <li>Lohfelder Straße 70</li>
+      <li>32457 Porta Westfalica</li>
+      <li>Germany</li>
+      <li><a href="mailto:straube.maurice@gmx.de">Email me</a></li>
+    </ul>
+    <form
+      enctype="text/plain"
+      action="mailto:straube.maurice@gmx.de"
+      method="POST"
+    >
+      <label>Your name</label>
+      <input type="text" name="yourName" /> <br />
+      <label>Your email</label>
+      <input type="email" name="yourEMail" value="" /> <br />
+      <label>Your message</label> <br />
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br />
+      <input type="submit" name="Submit" />
+    </form>
+  </body>
+</html>
